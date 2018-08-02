@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-momo",
+  "version": "1.0.3",
+  "description": "ESLint 配置 @momoko",
+  "author": "momoko <928701977@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wannaxiao/eslint-config-momo"
+  },
+  "keywords": [],
+  "scripts": {},
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.2.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "eslint-config-standard": "^11.0.0"
+  }
+}
