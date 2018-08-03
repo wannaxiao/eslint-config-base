@@ -8,6 +8,9 @@ module.exports = {
   parser: 'babel-eslint',
   // 解析器选项
   parserOptions: {
+    // 指定 js 的解析器
+    parser: 'babel-eslint',
+    // js 的类型
     sourceType: 'module',
     // ECMAScript 版本
     ecmaVersion: 2018,
@@ -31,9 +34,9 @@ module.exports = {
   settings: {
     'import/resolver': {
       webpack: {
-        config: 'webpack.base.conf.js'
-      }
-    }
+        config: 'webpack.base.conf.js',
+      },
+    },
   },
   // add your custom rules here
   // 'off' 或 0 - 关闭规则
@@ -46,14 +49,17 @@ module.exports = {
     // 允许生成器
     'generator-star-spacing': 0,
     // 对象和数组结尾强制分号
-    'comma-dangle': [2, {
-      'arrays': 'always-multiline',
-      'objects': 'always-multiline',
-      'imports': 'always-multiline',
-      'exports': 'always-multiline',
-      'functions': 'ignore',
-    }],
+    'comma-dangle': [
+      2,
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'ignore',
+      },
+    ],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-  }
+  },
 }

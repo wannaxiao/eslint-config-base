@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-momo",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "ESLint 配置 @momoko",
   "author": "momoko <928701977@qq.com>",
   "license": "MIT",
@@ -9,10 +9,12 @@
     "type": "git",
     "url": "https://github.com/wannaxiao/eslint-config-momo"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "scripts": {},
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "eslint": "^5.2.0",
