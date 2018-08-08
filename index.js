@@ -31,13 +31,13 @@ module.exports = {
   // 配置插件
   plugins: ['import'],
   // check if imports actually resolve
-  settings: {
-    'import/resolver': {
-      webpack: {
-        config: 'webpack.base.conf.js',
-      },
-    },
-  },
+  // settings: {
+  //   'import/resolver': {
+  //     webpack: {
+  //       config: 'webpack.base.conf.js',
+  //     },
+  //   },
+  // },
   // add your custom rules here
   // 'off' 或 0 - 关闭规则
   // 'warn' 或 1 - 开启规则，使用警告级别的错误：warn (不会导致程序退出)
