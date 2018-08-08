@@ -1,5 +1,5 @@
 /**
- * face to javascript
+ * for javascript
  */
 
 module.exports = {

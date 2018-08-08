@@ -1,5 +1,5 @@
 /**
- * face to vue
+ * for vue
  */
 
 module.exports = {

@@ -1,5 +1,5 @@
 /**
- * face to react
+ * for react
  */
 
 module.exports = {
