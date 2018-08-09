@@ -3,10 +3,6 @@
  */
 
 module.exports = {
-  // 指定解析器
-  parser: 'vue-eslint-parser',
-  // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
-  // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
   extends: ['plugin:vue/recommended', './index.js'],
   // 配置插件
   plugins: ['vue', 'jsx-a11y'],

@@ -1,19 +1,23 @@
-# ESLint 配置 @momoko
+# @momoko/eslint-config-base
 
-## for javascript
+## 安装
 
 ```bash
-yarn add -D eslint-config-momo eslint babel-eslint eslint-config-standard eslint-plugin-standard eslint-plugin-node eslint-plugin-promise eslint-plugin-import
+yarn add -D @momoko/eslint-config-base
 ```
 
-## for vue
+## 使用
 
-```bash
-yarn add -D eslint-config-momo eslint@^4.16.0 babel-eslint eslint-config-standard eslint-plugin-standard eslint-plugin-node eslint-plugin-promise eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-vue
-```
-
-## for react
-
-```bash
-yarn add -D eslint-config-momo eslint babel-eslint eslint-config-standard eslint-plugin-standard eslint-plugin-node eslint-plugin-promise eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+```js
+// package.json 中添加
+  "eslintConfig": {
+    "extends": [
+      // for js
+      "@momoko/base"
+      // for vue
+      // "@momoko/base/vue"
+      // for react
+      // "@momoko/base/react"
+    ]
+  },
 ```

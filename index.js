@@ -4,8 +4,6 @@
 
 module.exports = {
   root: true,
-  // 指定解析器
-  parser: 'babel-eslint',
   // 解析器选项
   parserOptions: {
     // 指定 js 的解析器
@@ -46,8 +44,6 @@ module.exports = {
     // 自定义的 standard 规则：
     // 箭头函数当只有一个参数时允许省略圆括号
     'arrow-parens': 0,
-    // 允许生成器
-    'generator-star-spacing': 0,
     // 对象和数组结尾强制分号
     'comma-dangle': [
       2,
