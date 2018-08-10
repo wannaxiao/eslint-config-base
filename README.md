@@ -8,8 +8,9 @@ yarn add -D @momoko/eslint-config-base
 
 ## 使用
 
+> package.json 中添加
+
 ```js
-// package.json 中添加
   "eslintConfig": {
     "extends": [
       // for js
