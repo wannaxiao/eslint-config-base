@@ -11,9 +11,7 @@
   "command": {
     "publish": {
       "allowBranch": "master",
-      "conventionalCommits": true,
-      "changelogPreset": "angular",
-      "message": "chore(release): publish %s"
+      "message": "chore(release): publish"
     }
   }
 }
