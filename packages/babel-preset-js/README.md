@@ -13,7 +13,9 @@ yarn add -D @momoko/babel-preset-js
 ```js
   "babel": {
     "presets": [
-      "@momoko/js"
+      ["@momoko/js", {
+        "useBuiltIns": "usage"
+      }]
     ]
   },
   "browserslist": [

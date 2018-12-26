@@ -41,11 +41,13 @@ yarn add -D @momoko/babel-preset-vue
 ```js
   "babel": {
     "presets": [
-      "@momoko/js"
+      ["@momoko/js", {
+        "useBuiltIns": "usage"
+      }]
     ]
   },
   "browserslist": [
     "iOS >= 8",
     "Android >= 4.4"
-  ],
+  ]
 ```
