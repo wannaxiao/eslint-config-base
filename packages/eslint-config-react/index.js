@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-  extends: ['plugin:react/recommended', './index.js'],
+  extends: ['plugin:react/recommended', '@momo/js'],
   // 配置插件
   plugins: ['react', 'jsx-a11y'],
   // add your custom rules here

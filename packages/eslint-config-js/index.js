@@ -43,10 +43,10 @@ module.exports = {
   rules: {
     // 自定义的 standard 规则：
     // 箭头函数当只有一个参数时允许省略圆括号
-    'arrow-parens': 0,
+    'arrow-parens': 'off',
     // 对象和数组结尾强制分号
     'comma-dangle': [
-      2,
+      'error',
       {
         arrays: 'always-multiline',
         objects: 'always-multiline',
@@ -56,6 +56,6 @@ module.exports = {
       },
     ],
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
   },
 }
