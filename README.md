@@ -3,7 +3,7 @@
 ## 安装
 
 ```bash
-yarn add -D @momo/eslint-config-js
+yarn add -D @momoko/eslint-config-js
 ```
 
 ## 使用
@@ -13,7 +13,7 @@ yarn add -D @momo/eslint-config-js
 ```js
   "eslintConfig": {
     "extends": [
-      "@momo/js"
+      "@momoko/js"
     ]
   },
 ```
@@ -23,7 +23,7 @@ yarn add -D @momo/eslint-config-js
 ## 安装
 
 ```bash
-yarn add -D @momo/eslint-config-vue
+yarn add -D @momoko/eslint-config-vue
 ```
 
 ## 使用
@@ -33,7 +33,7 @@ yarn add -D @momo/eslint-config-vue
 ```js
   "eslintConfig": {
     "extends": [
-      "@momo/vue"
+      "@momoko/vue"
     ]
   },
 ```
@@ -43,7 +43,7 @@ yarn add -D @momo/eslint-config-vue
 ## 安装
 
 ```bash
-yarn add -D @momo/eslint-config-react
+yarn add -D @momoko/eslint-config-react
 ```
 
 ## 使用
@@ -53,7 +53,7 @@ yarn add -D @momo/eslint-config-react
 ```js
   "eslintConfig": {
     "extends": [
-      "@momo/react"
+      "@momoko/react"
     ]
   },
 ```

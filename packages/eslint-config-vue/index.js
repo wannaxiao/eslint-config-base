@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-  extends: ['plugin:vue/recommended', '@momo/js'],
+  extends: ['plugin:vue/recommended', '@momoko/js'],
   // 配置插件
   plugins: ['vue', 'jsx-a11y'],
   // add your custom rules here

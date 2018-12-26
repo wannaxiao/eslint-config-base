@@ -1,7 +1,7 @@
 {
-  "name": "@momo/eslint-config-js",
+  "name": "@momoko/eslint-config-js",
   "version": "0.1.0",
-  "description": "@momo / ESLint 配置 for js",
+  "description": "@momoko / ESLint 配置 for js",
   "author": "momoko <928701977@qq.com>",
   "license": "MIT",
   "private": false,

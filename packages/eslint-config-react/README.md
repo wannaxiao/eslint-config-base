@@ -1,9 +1,9 @@
-# @momo/eslint-config-react
+# @momoko/eslint-config-react
 
 ## 安装
 
 ```bash
-yarn add -D @momo/eslint-config-react
+yarn add -D @momoko/eslint-config-react
 ```
 
 ## 使用
@@ -13,7 +13,7 @@ yarn add -D @momo/eslint-config-react
 ```js
   "eslintConfig": {
     "extends": [
-      "@momo/react"
+      "@momoko/react"
     ]
   },
 ```

@@ -1,9 +1,9 @@
-# @momo/eslint-config-js
+# @momoko/eslint-config-js
 
 ## 安装
 
 ```bash
-yarn add -D @momo/eslint-config-js
+yarn add -D @momoko/eslint-config-js
 ```
 
 ## 使用
@@ -13,7 +13,7 @@ yarn add -D @momo/eslint-config-js
 ```js
   "eslintConfig": {
     "extends": [
-      "@momo/js"
+      "@momoko/js"
     ]
   },
 ```

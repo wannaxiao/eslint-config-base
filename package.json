@@ -1,6 +1,6 @@
 {
   "name": "eslint-config",
-  "description": "@momo / ESLint 配置",
+  "description": "@momoko / ESLint 配置",
   "author": "momoko <928701977@qq.com>",
   "license": "MIT",
   "private": false,

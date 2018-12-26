@@ -1,9 +1,9 @@
-# @momo/eslint-config-vue
+# @momoko/eslint-config-vue
 
 ## 安装
 
 ```bash
-yarn add -D @momo/eslint-config-vue
+yarn add -D @momoko/eslint-config-vue
 ```
 
 ## 使用
@@ -13,7 +13,7 @@ yarn add -D @momo/eslint-config-vue
 ```js
   "eslintConfig": {
     "extends": [
-      "@momo/vue"
+      "@momoko/vue"
     ]
   },
 ```
