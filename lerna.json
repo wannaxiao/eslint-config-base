@@ -12,7 +12,8 @@
     "publish": {
       "allowBranch": "master",
       "conventionalCommits": true,
-      "changelogPreset": "angular"
+      "changelogPreset": "angular",
+      "message": "chore(release): publish"
     }
   }
 }
