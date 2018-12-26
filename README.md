@@ -1,48 +1,13 @@
+# @momoko/eslint-config
+
+## 安装
+
+```bash
 # for js
-
-## 安装
-
-```bash
 yarn add -D @momoko/eslint-config-js
-```
-
-## 使用
-
-> package.json 中添加
-
-```js
-  "eslintConfig": {
-    "extends": [
-      "@momoko/js"
-    ]
-  },
-```
-
 # for vue
-
-## 安装
-
-```bash
 yarn add -D @momoko/eslint-config-vue
-```
-
-## 使用
-
-> package.json 中添加
-
-```js
-  "eslintConfig": {
-    "extends": [
-      "@momoko/vue"
-    ]
-  },
-```
-
 # for react
-
-## 安装
-
-```bash
 yarn add -D @momoko/eslint-config-react
 ```
 
@@ -53,6 +18,8 @@ yarn add -D @momoko/eslint-config-react
 ```js
   "eslintConfig": {
     "extends": [
+      "@momoko/js",
+      "@momoko/vue",
       "@momoko/react"
     ]
   },
