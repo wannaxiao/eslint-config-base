@@ -11,9 +11,7 @@
   "command": {
     "publish": {
       "allowBranch": "master",
-      "conventionalCommits": true,
-      "gitRemote": "upstream",
-      "message": "chore(release): publish"
+      "conventionalCommits": true
     }
   }
 }
