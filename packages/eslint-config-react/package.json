@@ -1,6 +1,6 @@
 {
   "name": "@momo/eslint-config-react",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "@momo / ESLint 配置 for react",
   "author": "momoko <928701977@qq.com>",
   "license": "MIT",
