@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "boot": "lerna bootstrap",
-    "release": "git checkout master && lerna publish --skip-npm"
+    "release": "git checkout master && lerna publish --no-push --skip-npm"
   },
   "dependencies": {
   },
