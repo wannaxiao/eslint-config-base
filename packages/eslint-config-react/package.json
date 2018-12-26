@@ -1,6 +1,6 @@
 {
   "name": "@momo/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "@momo / ESLint 配置 for react",
   "author": "momoko <928701977@qq.com>",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "eslint-config"
   ],
   "dependencies": {
-    "@momo/eslint-config-js": "^0.1.0",
+    "@momo/eslint-config-js": "^0.1.1",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1"
   }
