@@ -11,7 +11,8 @@
   "command": {
     "publish": {
       "allowBranch": "master",
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "changelogPreset": "angular"
     }
   }
 }
