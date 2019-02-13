@@ -2,7 +2,7 @@
   "name": "@momoko/babel-preset-js",
   "version": "0.1.0",
   "description": "@momoko / Babel 配置 for js",
-  "author": "momoko <928701977@qq.com>",
+  "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
   "private": false,
   "publishConfig": {

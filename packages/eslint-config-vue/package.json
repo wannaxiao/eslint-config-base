@@ -2,7 +2,7 @@
   "name": "@momoko/eslint-config-vue",
   "version": "0.1.2",
   "description": "@momoko / ESLint 配置 for vue",
-  "author": "momoko <928701977@qq.com>",
+  "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
   "private": false,
   "publishConfig": {
