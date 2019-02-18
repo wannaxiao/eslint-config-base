@@ -1,16 +1,18 @@
 {
-  "name": "eslint-config",
-  "description": "@momoko / ESLint 配置",
+  "name": "base-preset",
+  "description": "🌵 ESLint / Babel 基础预设模块",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/wannaxiao/eslint-config"
+    "url": "https://github.com/wannaxiao/base-preset"
   },
   "keywords": [
     "eslint",
-    "eslint-config"
+    "eslint-config",
+    "babel",
+    "babel-preset"
   ],
   "scripts": {
     "boot": "lerna bootstrap",
