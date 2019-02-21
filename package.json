@@ -1,12 +1,12 @@
 {
-  "name": "base-preset",
-  "description": "🌵 ESLint / Babel 基础预设模块",
+  "name": "preset",
+  "description": "🌵 ESLint / Babel 预设模块",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/wannaxiao/base-preset"
+    "url": "https://github.com/wannaxiao/preset"
   },
   "keywords": [
     "eslint",
