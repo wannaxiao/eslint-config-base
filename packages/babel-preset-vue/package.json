@@ -1,6 +1,6 @@
 {
   "name": "@momoko/babel-preset-vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "@momoko / Babel 配置 for vue",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
