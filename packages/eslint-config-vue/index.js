@@ -23,9 +23,7 @@ module.exports = {
         },
       },
     ],
-    // 属性名必须 '-' 连接
-    'vue/attribute-hyphenation': 'off',
-    // 强制自闭合标签
+    // 强制自闭合空标签
     'vue/html-self-closing': 'off',
     // 标签强制换行，该属性会导致编辑器折叠失效
     'vue/html-closing-bracket-newline': 'off',
@@ -34,6 +32,6 @@ module.exports = {
     // 单行标签强制换行
     'vue/singleline-html-element-content-newline': 'off',
     // 多行标签强制换行
-    'vue/multiline-html-element-content-newline': 'off',
+    // 'vue/multiline-html-element-content-newline': 'off',
   },
 }
