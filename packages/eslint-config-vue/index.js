@@ -13,14 +13,27 @@ module.exports = {
   rules: {
     // 自定义的 plugin-vue 规则：
     // 单行中允许多个属性
-    'vue/max-attributes-per-line': ['error', {
-      'singleline': 2,
-      'multiline': {
-        'max': 1,
-        'allowFirstLine': false,
+    'vue/max-attributes-per-line': [
+      'error',
+      {
+        singleline: 2,
+        multiline: {
+          max: 1,
+          allowFirstLine: false,
+        },
       },
-    }],
-    // 关闭属性名必须是 '-' 连接
-    'vue/attribute-hyphenation': 0,
+    ],
+    // 属性名必须 '-' 连接
+    'vue/attribute-hyphenation': 'off',
+    // 强制自闭合标签
+    'vue/html-self-closing': 'off',
+    // 标签强制换行，该属性会导致编辑器折叠失效
+    'vue/html-closing-bracket-newline': 'off',
+    // v-html 验证
+    'vue/no-v-html': 'off',
+    // 单行标签强制换行
+    'vue/singleline-html-element-content-newline': 'off',
+    // 多行标签强制换行
+    'vue/multiline-html-element-content-newline': 'off',
   },
 }
