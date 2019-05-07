@@ -42,8 +42,6 @@ module.exports = {
   // 'error' 或 2 - 开启规则，使用错误级别的错误：error (当被触发的时候，程序会退出)
   rules: {
     // 自定义的 standard 规则：
-    // 箭头函数当只有一个参数时允许省略圆括号
-    'arrow-parens': 'off',
     // 对象和数组结尾强制分号
     'comma-dangle': [
       'error',
