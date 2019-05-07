@@ -5,6 +5,8 @@
 ```bash
 # for js
 yarn add -D @momoko/eslint-config-js
+# for ts
+yarn add -D @momoko/eslint-config-ts
 # for vue
 yarn add -D @momoko/eslint-config-vue
 # for react
