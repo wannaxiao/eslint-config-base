@@ -1,6 +1,6 @@
 {
   "name": "@momoko/eslint-config-ts",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "@momoko / ESLint 配置 for ts",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "eslint-config"
   ],
   "dependencies": {
-    "@momoko/eslint-config-js": "^0.2.1"
+    "@momoko/eslint-config-js": "^0.2.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.7.0",
