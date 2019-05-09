@@ -16,5 +16,7 @@ module.exports = {
   // 'error' 或 2 - 开启规则，使用错误级别的错误：error (当被触发的时候，程序会退出)
   rules: {
     // 自定义规则：
+    // 关闭 @typescript-eslint 缩进规则，使用 @momoko/js 缩进规则
+    '@typescript-eslint/indent': 'off',
   },
 }
