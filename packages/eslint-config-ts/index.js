@@ -18,5 +18,7 @@ module.exports = {
     // 自定义规则：
     // 关闭 @typescript-eslint 缩进规则，使用 @momoko/js 缩进规则
     '@typescript-eslint/indent': 'off',
+    // 除 import 语句外，不允许使用 require 语句
+    '@typescript-eslint/no-var-requires': 'off',
   },
 }
