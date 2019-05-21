@@ -90,13 +90,13 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@momoko/eslint-config-js@^0.1.4":
-  version "0.1.4"
-  resolved "http://registry.npm.taobao.org/@momoko/eslint-config-js/download/@momoko/eslint-config-js-0.1.4.tgz#c8b8a6e7da13b83263de487b90b940396dd62afb"
-  integrity sha1-yLim59oTuDJj3kh7kLlAOW3WKvs=
+"@momoko/eslint-config-js@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-js/download/@momoko/eslint-config-js-0.2.2.tgz#4d7f73c577d8dcb259811760ca4cb8d904ad02b5"
+  integrity sha1-TX9zxXfY3LJZgRdgyky42QStArU=
   dependencies:
     babel-eslint "^10.0.1"
-    eslint "^5.11.0"
+    eslint "^5.14.1"
     eslint-config-standard "^12.0.0"
     eslint-plugin-import "^2.14.0"
     eslint-plugin-node "^8.0.0"
@@ -414,7 +414,7 @@ eslint-plugin-import@^2.14.0:
 
 eslint-plugin-jsx-a11y@^6.2.1:
   version "6.2.1"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-jsx-a11y/download/eslint-plugin-jsx-a11y-6.2.1.tgz#4ebba9f339b600ff415ae4166e3e2e008831cf0c"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-jsx-a11y/download/eslint-plugin-jsx-a11y-6.2.1.tgz#4ebba9f339b600ff415ae4166e3e2e008831cf0c"
   integrity sha1-Trup8zm2AP9BWuQWbj4uAIgxzww=
   dependencies:
     aria-query "^3.0.0"
@@ -450,7 +450,7 @@ eslint-plugin-standard@^4.0.0:
 
 eslint-plugin-vue@^5.2.2:
   version "5.2.2"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-5.2.2.tgz#86601823b7721b70bc92d54f1728cfc03b36283c"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-5.2.2.tgz#86601823b7721b70bc92d54f1728cfc03b36283c"
   integrity sha1-hmAYI7dyG3C8ktVPFyjPwDs2KDw=
   dependencies:
     vue-eslint-parser "^5.0.0"
@@ -481,7 +481,7 @@ eslint-visitor-keys@^1.0.0:
   resolved "http://registry.npm.taobao.org/eslint-visitor-keys/download/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha1-PzGA+y4pEBdxastMnW1bXDSmqB0=
 
-eslint@^5.11.0, eslint@^5.14.1:
+eslint@^5.14.1:
   version "5.14.1"
   resolved "http://registry.npm.taobao.org/eslint/download/eslint-5.14.1.tgz#490a28906be313685c55ccd43a39e8d22efc04ba"
   integrity sha1-SQookGvjE2hcVczUOjno0i78BLo=
