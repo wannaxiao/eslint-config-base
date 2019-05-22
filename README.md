@@ -5,12 +5,14 @@
 ```bash
 # for js
 yarn add -D eslint @momoko/eslint-config-js
-# for ts
-yarn add -D eslint @momoko/eslint-config-ts
 # for vue
 yarn add -D eslint @momoko/eslint-config-vue
 # for react
 yarn add -D eslint @momoko/eslint-config-react
+# for ts
+yarn add -D eslint @momoko/eslint-config-ts
+# for ts-vue
+yarn add -D eslint @momoko/eslint-config-ts-vue
 ```
 
 ## 使用
