@@ -2,7 +2,7 @@
  * for vue
  */
 
-module.exports = (context, { modules = false, useBuiltIns = false } = {}) => {
+module.exports = (context, { modules = false, useBuiltIns = false, legacy = true } = {}) => {
   const presets = [
     [
       '@babel/preset-env',
@@ -11,6 +11,7 @@ module.exports = (context, { modules = false, useBuiltIns = false } = {}) => {
         useBuiltIns,
       },
     ],
+    '@babel/preset-typescript',
   ]
 
   const plugins = [
@@ -20,6 +21,7 @@ module.exports = (context, { modules = false, useBuiltIns = false } = {}) => {
     '@babel/plugin-external-helpers',
     // stage
     '@babel/plugin-syntax-dynamic-import',
+    ['@babel/plugin-proposal-decorators', { "legacy": legacy }],
     '@babel/plugin-proposal-class-properties',
     // transform-runtime
     '@babel/plugin-transform-runtime',
