@@ -24,5 +24,16 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     // 在类属性和方法上需要显式的可访问性修饰符
     '@typescript-eslint/explicit-member-accessibility': 'no-public',
+    // 接口和类的成员分隔符样式
+    '@typescript-eslint/member-delimiter-style': {
+      multiline: {
+        delimiter: 'none',
+        requireLast: true,
+      },
+      singleline: {
+        delimiter: 'semi',
+        requireLast: false,
+      },
+    },
   },
 }
