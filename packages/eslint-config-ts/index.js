@@ -23,17 +23,23 @@ module.exports = {
     // 除 import 语句外，不允许使用 require 语句
     '@typescript-eslint/no-var-requires': 'off',
     // 在类属性和方法上需要显式的可访问性修饰符
-    '@typescript-eslint/explicit-member-accessibility': 'no-public',
+    '@typescript-eslint/explicit-member-accessibility': [
+      'error',
+      { accessibility: 'no-public' }
+    ],
     // 接口和类的成员分隔符样式
-    '@typescript-eslint/member-delimiter-style': {
-      multiline: {
-        delimiter: 'none',
-        requireLast: true,
+    '@typescript-eslint/member-delimiter-style': [
+      'error',
+      {
+        multiline: {
+          delimiter: 'none',
+          requireLast: true,
+        },
+        singleline: {
+          delimiter: 'semi',
+          requireLast: false,
+        },
       },
-      singleline: {
-        delimiter: 'semi',
-        requireLast: false,
-      },
-    },
+    ],
   },
 }
