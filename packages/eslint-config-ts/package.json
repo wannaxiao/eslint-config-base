@@ -21,5 +21,8 @@
     "@momoko/eslint-config-js": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^1.7.0",
     "@typescript-eslint/parser": "^1.7.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0"
   }
 }

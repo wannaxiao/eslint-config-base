@@ -21,5 +21,8 @@
     "@momoko/eslint-config-js": "^1.0.1",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0"
   }
 }
