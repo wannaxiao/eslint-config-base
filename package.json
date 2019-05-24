@@ -10,9 +10,7 @@
   },
   "keywords": [
     "eslint",
-    "eslint-config",
-    "babel",
-    "babel-preset"
+    "eslint-config"
   ],
   "scripts": {
     "boot": "lerna bootstrap",
