@@ -1,6 +1,6 @@
 {
   "name": "preset",
-  "description": "🌵 ESLint / Babel 预设模块",
+  "description": "🌵 ESLint 配置模块",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
   "private": false,
