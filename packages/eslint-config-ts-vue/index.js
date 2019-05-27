@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-  extends: ['@momoko/ts', '@momoko/vue', '@momoko/js'],
+  extends: ['@momoko/ts', '@momoko/vue'],
   // 解析器选项
   parserOptions: {
     parser: '@typescript-eslint/parser',

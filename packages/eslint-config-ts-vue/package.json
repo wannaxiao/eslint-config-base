@@ -17,7 +17,6 @@
     "eslint-config"
   ],
   "dependencies": {
-    "@momoko/eslint-config-js": "^1.0.1",
     "@momoko/eslint-config-ts": "^1.1.0",
     "@momoko/eslint-config-vue": "^1.0.1"
   },
