@@ -1,6 +1,6 @@
 {
   "name": "@momoko/eslint-config-ts-vue",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "@momoko / ESLint 配置 for ts-vue",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
@@ -18,8 +18,8 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@momoko/eslint-config-ts": "^1.1.0",
-    "@momoko/eslint-config-vue": "^1.0.1"
+    "@momoko/eslint-config-ts": "^1.1.1",
+    "@momoko/eslint-config-vue": "^1.0.2"
   },
   "peerDependencies": {
     "eslint": ">=5.0.0"
