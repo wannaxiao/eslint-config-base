@@ -90,10 +90,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@momoko/eslint-config-js@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-js/download/@momoko/eslint-config-js-1.0.0.tgz#ee843b67ec6ccf82a9971206524a8dd74f53b279"
-  integrity sha1-7oQ7Z+xsz4KplxIGUkqN109Tsnk=
+"@momoko/eslint-config-js@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-js/download/@momoko/eslint-config-js-1.0.1.tgz#ad957dc67265faf74ede39ccf56861afdda043f6"
+  integrity sha1-rZV9xnJl+vdO3jnM9Whhr92gQ/Y=
   dependencies:
     babel-eslint "^10.0.1"
     eslint-config-standard "^12.0.0"
@@ -102,21 +102,21 @@
     eslint-plugin-promise "^4.1.1"
     eslint-plugin-standard "^4.0.0"
 
-"@momoko/eslint-config-ts@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-ts/download/@momoko/eslint-config-ts-1.0.0.tgz#f5f35dfb4ee07f38898fdd6414869e840fb02ff7"
-  integrity sha1-9fNd+07gfziJj91kFIaehA+wL/c=
+"@momoko/eslint-config-ts@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-ts/download/@momoko/eslint-config-ts-1.1.0.tgz#de42d86329930919a160279468f5abda1e196832"
+  integrity sha1-3kLYYymTCRmhYCeUaPWr2h4ZaDI=
   dependencies:
-    "@momoko/eslint-config-js" "^1.0.0"
+    "@momoko/eslint-config-js" "^1.0.1"
     "@typescript-eslint/eslint-plugin" "^1.7.0"
     "@typescript-eslint/parser" "^1.7.0"
 
-"@momoko/eslint-config-vue@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-vue/download/@momoko/eslint-config-vue-1.0.0.tgz#75cb37dd33b81fbec1513d13131a097db2810f7f"
-  integrity sha1-dcs33TO4H77BUT0TExoJfbKBD38=
+"@momoko/eslint-config-vue@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-vue/download/@momoko/eslint-config-vue-1.0.1.tgz#0fcd478b2ca53d9979a1aea4e2ccaae580f62df0"
+  integrity sha1-D81HiyylPZl5oa6k4syq5YD2LfA=
   dependencies:
-    "@momoko/eslint-config-js" "^1.0.0"
+    "@momoko/eslint-config-js" "^1.0.1"
     eslint-plugin-jsx-a11y "^6.2.1"
     eslint-plugin-vue "^5.2.2"
 

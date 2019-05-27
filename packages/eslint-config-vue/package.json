@@ -17,6 +17,11 @@
     "eslint-config"
   ],
   "main": "index.js",
+  "eslintConfig": {
+    "extends": [
+      "@momoko/js"
+    ]
+  },
   "dependencies": {
     "@momoko/eslint-config-js": "^1.0.1",
     "eslint-plugin-jsx-a11y": "^6.2.1",
