@@ -24,6 +24,8 @@ module.exports = {
     '@typescript-eslint/indent': ['error', 2],
     // 除 import 语句外，不允许使用 require 语句
     '@typescript-eslint/no-var-requires': 'off',
+    // 允许 any
+    '@typescript-eslint/no-explicit-any': 'off',
     // 在类属性和方法上需要显式的可访问性修饰符
     '@typescript-eslint/explicit-member-accessibility': [
       'error',
