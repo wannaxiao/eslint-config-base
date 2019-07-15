@@ -90,10 +90,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@momoko/eslint-config-js@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-js/download/@momoko/eslint-config-js-1.0.1.tgz#ad957dc67265faf74ede39ccf56861afdda043f6"
-  integrity sha1-rZV9xnJl+vdO3jnM9Whhr92gQ/Y=
+"@momoko/eslint-config-js@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@momoko/eslint-config-js/-/eslint-config-js-1.0.2.tgz#ed6e2b605f2daba54369f5f327f000ce259ccce8"
+  integrity sha512-/zmmbvUjTU5PY1sj+EvIyKm7d0E+kFUpYI4eMu3HNescZNMN2SxS2DZ4NeJ0/KURYAJpyE4j2JjWWphVQ8nMSg==
   dependencies:
     babel-eslint "^10.0.1"
     eslint-config-standard "^12.0.0"
@@ -102,58 +102,62 @@
     eslint-plugin-promise "^4.1.1"
     eslint-plugin-standard "^4.0.0"
 
-"@momoko/eslint-config-ts@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-ts/download/@momoko/eslint-config-ts-1.1.0.tgz#de42d86329930919a160279468f5abda1e196832"
-  integrity sha1-3kLYYymTCRmhYCeUaPWr2h4ZaDI=
+"@momoko/eslint-config-ts@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@momoko/eslint-config-ts/-/eslint-config-ts-1.1.2.tgz#5e1b269c428e766d609cffaa6cbd78e73f6bcdc0"
+  integrity sha512-5lA6QEUcMAP9gXgXG1Qbm+toE8z02q3YK9wl5VPj9C1qkJA2dQwbRCZcPCKJYxnqUYRRWOObpxaXkU51+kCpZA==
   dependencies:
-    "@momoko/eslint-config-js" "^1.0.1"
-    "@typescript-eslint/eslint-plugin" "^1.7.0"
-    "@typescript-eslint/parser" "^1.7.0"
+    "@momoko/eslint-config-js" "^1.0.2"
+    "@typescript-eslint/eslint-plugin" "^1.9.0"
+    "@typescript-eslint/parser" "^1.9.0"
 
-"@momoko/eslint-config-vue@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/@momoko/eslint-config-vue/download/@momoko/eslint-config-vue-1.0.1.tgz#0fcd478b2ca53d9979a1aea4e2ccaae580f62df0"
-  integrity sha1-D81HiyylPZl5oa6k4syq5YD2LfA=
+"@momoko/eslint-config-vue@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@momoko/eslint-config-vue/-/eslint-config-vue-1.0.2.tgz#a99ceb801cf71770246b09749e3fe4fd6e855045"
+  integrity sha512-/04vDj6BotgKiGke4duGm+ISTdKQ9/2rsPX91PzgIHDyujGeaTOfl64/D5C4TEB0SqNXFeQ6RjsNwXZO5GgMEw==
   dependencies:
-    "@momoko/eslint-config-js" "^1.0.1"
+    "@momoko/eslint-config-js" "^1.0.2"
     eslint-plugin-jsx-a11y "^6.2.1"
     eslint-plugin-vue "^5.2.2"
 
-"@typescript-eslint/eslint-plugin@^1.7.0":
-  version "1.9.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-1.9.0.tgz#29d73006811bf2563b88891ceeff1c5ea9c8d9c6"
-  integrity sha1-KdcwBoEb8lY7iIkc7v8cXqnI2cY=
+"@types/eslint-visitor-keys@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
+  integrity sha512-OCutwjDZ4aFS6PB1UZ988C4YgwlBHJd6wCeQqaLdmadZ/7e+w79+hbMUFC1QXDNCmdyoRfAFdm0RypzwR+Qpag==
+
+"@typescript-eslint/eslint-plugin@^1.9.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-1.12.0.tgz#96b4e08b5f998a198b8414508b1a289f9e8c549a"
+  integrity sha512-J/ZTZF+pLNqjXBGNfq5fahsoJ4vJOkYbitWPavA05IrZ7BXUaf4XWlhUB/ic1lpOGTRpLWF+PLAePjiHp6dz8g==
   dependencies:
-    "@typescript-eslint/experimental-utils" "1.9.0"
-    "@typescript-eslint/parser" "1.9.0"
+    "@typescript-eslint/experimental-utils" "1.12.0"
     eslint-utils "^1.3.1"
     functional-red-black-tree "^1.0.1"
     regexpp "^2.0.1"
-    requireindex "^1.2.0"
     tsutils "^3.7.0"
 
-"@typescript-eslint/experimental-utils@1.9.0":
-  version "1.9.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-1.9.0.tgz#a92777d0c92d7bc8627abd7cdb06cdbcaf2b39e8"
-  integrity sha1-qSd30Mkte8hier182wbNvK8rOeg=
+"@typescript-eslint/experimental-utils@1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-1.12.0.tgz#98417ee2e0c6fe8d1e50d934a6535d9c0f4277b6"
+  integrity sha512-s0soOTMJloytr9GbPteMLNiO2HvJ+qgQkRNplABXiVw6vq7uQRvidkby64Gqt/nA7pys74HksHwRULaB/QRVyw==
   dependencies:
-    "@typescript-eslint/typescript-estree" "1.9.0"
-
-"@typescript-eslint/parser@1.9.0", "@typescript-eslint/parser@^1.7.0":
-  version "1.9.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/parser/download/@typescript-eslint/parser-1.9.0.tgz#5796cbfcb9a3a5757aeb671c1ac88d7a94a95962"
-  integrity sha1-V5bL/LmjpXV662ccGsiNepSpWWI=
-  dependencies:
-    "@typescript-eslint/experimental-utils" "1.9.0"
-    "@typescript-eslint/typescript-estree" "1.9.0"
+    "@typescript-eslint/typescript-estree" "1.12.0"
     eslint-scope "^4.0.0"
+
+"@typescript-eslint/parser@^1.9.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-1.12.0.tgz#9965895ec4745578185965d63f21510f93a3f35a"
+  integrity sha512-0uzbaa9ZLCA5yMWJywnJJ7YVENKGWVUhJDV5UrMoldC5HoI54W5kkdPhTfmtFKpPFp93MIwmJj0/61ztvmz5Dw==
+  dependencies:
+    "@types/eslint-visitor-keys" "^1.0.0"
+    "@typescript-eslint/experimental-utils" "1.12.0"
+    "@typescript-eslint/typescript-estree" "1.12.0"
     eslint-visitor-keys "^1.0.0"
 
-"@typescript-eslint/typescript-estree@1.9.0":
-  version "1.9.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/typescript-estree/download/@typescript-eslint/typescript-estree-1.9.0.tgz#5d6d49be936e96fb0f859673480f89b070a5dd9b"
-  integrity sha1-XW1JvpNulvsPhZZzSA+JsHCl3Zs=
+"@typescript-eslint/typescript-estree@1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-1.12.0.tgz#d8dd0a7cffb5e3c0c3e98714042d83e316dfc9a9"
+  integrity sha512-nwN6yy//XcVhFs0ZyU+teJHB8tbCm7AIA8mu6E2r5hu6MajwYBY3Uwop7+rPZWUN/IUOHpL8C+iUPMDVYUU3og==
   dependencies:
     lodash.unescape "4.0.1"
     semver "5.5.0"
@@ -613,9 +617,9 @@ lodash.unescape@4.0.1:
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
 lodash@^4.17.11:
-  version "4.17.11"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha1-s56mIp72B+zYniyN8SU2iRysm40=
+  version "4.17.14"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
+  integrity sha512-mmKYbW3GLuJeX+iGP+Y7Gp1AiGHGbXHCOh/jZmrawMmsE7MS4znI3RL2FsjbqOyMayHInjOeykW7PEajUk1/xw==
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -725,11 +729,6 @@ regexpp@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/regexpp/download/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
   integrity sha1-jRnTHPYySCtYkEn4KB+T28uk0H8=
-
-requireindex@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npm.taobao.org/requireindex/download/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
-  integrity sha1-NGPNsi7hUZAmNapslTXU3pwu8e8=
 
 resolve@^1.10.0, resolve@^1.10.1, resolve@^1.5.0:
   version "1.11.0"
