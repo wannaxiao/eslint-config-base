@@ -9,39 +9,49 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/generator@^7.2.2":
-  version "7.3.3"
-  resolved "http://registry.npm.taobao.org/@babel/generator/download/@babel/generator-7.3.3.tgz#185962ade59a52e00ca2bdfcfd1d58e528d4e39e"
-  integrity sha1-GFlireWaUuAMor38/R1Y5SjU454=
+"@babel/code-frame@^7.12.13":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.13.tgz#dcfc826beef65e75c50e21d3837d7d95798dd658"
+  integrity sha512-HV1Cm0Q3ZrpCR93tkWOYiuYIgLxZXZFVG2VgK+MBWjUqZTundupbfx2aXarXuw5Ko5aMcjtJgbSs4vUGBS5v6g==
   dependencies:
-    "@babel/types" "^7.3.3"
+    "@babel/highlight" "^7.12.13"
+
+"@babel/generator@^7.13.9":
+  version "7.13.9"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.13.9.tgz#3a7aa96f9efb8e2be42d38d80e2ceb4c64d8de39"
+  integrity sha512-mHOOmY0Axl/JCTkxTU6Lf5sWOg/v8nUa+Xkt4zMTftX0wqmb6Sh7J8gvcehBw7q0AhrhAR+FDacKjCZ2X8K+Sw==
+  dependencies:
+    "@babel/types" "^7.13.0"
     jsesc "^2.5.1"
-    lodash "^4.17.11"
     source-map "^0.5.0"
-    trim-right "^1.0.1"
 
-"@babel/helper-function-name@^7.1.0":
-  version "7.1.0"
-  resolved "http://registry.npm.taobao.org/@babel/helper-function-name/download/@babel/helper-function-name-7.1.0.tgz#a0ceb01685f73355d4360c1247f582bfafc8ff53"
-  integrity sha1-oM6wFoX3M1XUNgwSR/WCv6/I/1M=
+"@babel/helper-function-name@^7.12.13":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/helper-function-name/-/helper-function-name-7.12.13.tgz#93ad656db3c3c2232559fd7b2c3dbdcbe0eb377a"
+  integrity sha512-TZvmPn0UOqmvi5G4vvw0qZTpVptGkB1GL61R6lKvrSdIxGm5Pky7Q3fpKiIkQCAtRCBUwB0PaThlx9vebCDSwA==
   dependencies:
-    "@babel/helper-get-function-arity" "^7.0.0"
-    "@babel/template" "^7.1.0"
-    "@babel/types" "^7.0.0"
+    "@babel/helper-get-function-arity" "^7.12.13"
+    "@babel/template" "^7.12.13"
+    "@babel/types" "^7.12.13"
 
-"@babel/helper-get-function-arity@^7.0.0":
-  version "7.0.0"
-  resolved "http://registry.npm.taobao.org/@babel/helper-get-function-arity/download/@babel/helper-get-function-arity-7.0.0.tgz#83572d4320e2a4657263734113c42868b64e49c3"
-  integrity sha1-g1ctQyDipGVyY3NBE8QoaLZOScM=
+"@babel/helper-get-function-arity@^7.12.13":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/helper-get-function-arity/-/helper-get-function-arity-7.12.13.tgz#bc63451d403a3b3082b97e1d8b3fe5bd4091e583"
+  integrity sha512-DjEVzQNz5LICkzN0REdpD5prGoidvbdYk1BVgRUOINaWJP2t6avB27X1guXK1kXNrX0WMfsrm1A/ZBthYuIMQg==
   dependencies:
-    "@babel/types" "^7.0.0"
+    "@babel/types" "^7.12.13"
 
-"@babel/helper-split-export-declaration@^7.0.0":
-  version "7.0.0"
-  resolved "http://registry.npm.taobao.org/@babel/helper-split-export-declaration/download/@babel/helper-split-export-declaration-7.0.0.tgz#3aae285c0311c2ab095d997b8c9a94cad547d813"
-  integrity sha1-Oq4oXAMRwqsJXZl7jJqUytVH2BM=
+"@babel/helper-split-export-declaration@^7.12.13":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.12.13.tgz#e9430be00baf3e88b0e13e6f9d4eaf2136372b05"
+  integrity sha512-tCJDltF83htUtXx5NLcaDqRmknv652ZWCHyoTETf1CXYJdPC7nohZohjUgieXhv0hTJdRf2FjDueFehdNucpzg==
   dependencies:
-    "@babel/types" "^7.0.0"
+    "@babel/types" "^7.12.13"
+
+"@babel/helper-validator-identifier@^7.12.11":
+  version "7.12.11"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.12.11.tgz#c9a1f021917dcb5ccf0d4e453e399022981fc9ed"
+  integrity sha512-np/lG3uARFybkoHokJUmf1QfEvRVCPbmQeUQpKow5cQ3xWrV9i3rUHodKDJPQfTVX61qKi+UdYk8kik84n7XOw==
 
 "@babel/highlight@^7.0.0":
   version "7.0.0"
@@ -52,10 +62,19 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.0.0", "@babel/parser@^7.2.2", "@babel/parser@^7.2.3":
-  version "7.3.3"
-  resolved "http://registry.npm.taobao.org/@babel/parser/download/@babel/parser-7.3.3.tgz#092d450db02bdb6ccb1ca8ffd47d8774a91aef87"
-  integrity sha1-CS1FDbAr22zLHKj/1H2HdKka74c=
+"@babel/highlight@^7.12.13":
+  version "7.13.10"
+  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.13.10.tgz#a8b2a66148f5b27d666b15d81774347a731d52d1"
+  integrity sha512-5aPpe5XQPzflQrFwL1/QoeHkP2MsA4JCntcXHRhEsdsfPVkvPi2w7Qix4iV7t5S/oC9OodGrggd8aco1g3SZFg==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.12.11"
+    chalk "^2.0.0"
+    js-tokens "^4.0.0"
+
+"@babel/parser@^7.12.13", "@babel/parser@^7.13.15", "@babel/parser@^7.7.0":
+  version "7.13.15"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.13.15.tgz#8e66775fb523599acb6a289e12929fa5ab0954d8"
+  integrity sha512-b9COtcAlVEQljy/9fbcMHpG+UIW9ReF+gpaxDHTlZd0c6/UU9ng8zdySAW9sRTzpvcdCHn6bUcbuYUgGzLAWVQ==
 
 "@babel/runtime-corejs3@^7.10.2":
   version "7.13.10"
@@ -72,50 +91,54 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/template@^7.1.0":
-  version "7.2.2"
-  resolved "http://registry.npm.taobao.org/@babel/template/download/@babel/template-7.2.2.tgz#005b3fdf0ed96e88041330379e0da9a708eb2907"
-  integrity sha1-AFs/3w7ZbogEEzA3ng2ppwjrKQc=
+"@babel/template@^7.12.13":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.12.13.tgz#530265be8a2589dbb37523844c5bcb55947fb327"
+  integrity sha512-/7xxiGA57xMo/P2GVvdEumr8ONhFOhfgq2ihK3h1e6THqzTAkHbkXgB0xI9yeTfIUoH3+oAeHhqm/I43OTbbjA==
   dependencies:
-    "@babel/code-frame" "^7.0.0"
-    "@babel/parser" "^7.2.2"
-    "@babel/types" "^7.2.2"
+    "@babel/code-frame" "^7.12.13"
+    "@babel/parser" "^7.12.13"
+    "@babel/types" "^7.12.13"
 
-"@babel/traverse@^7.0.0":
-  version "7.2.3"
-  resolved "http://registry.npm.taobao.org/@babel/traverse/download/@babel/traverse-7.2.3.tgz#7ff50cefa9c7c0bd2d81231fdac122f3957748d8"
-  integrity sha1-f/UM76nHwL0tgSMf2sEi85V3SNg=
+"@babel/traverse@^7.7.0":
+  version "7.13.15"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.13.15.tgz#c38bf7679334ddd4028e8e1f7b3aa5019f0dada7"
+  integrity sha512-/mpZMNvj6bce59Qzl09fHEs8Bt8NnpEDQYleHUPZQ3wXUMvXi+HJPLars68oAbmp839fGoOkv2pSL2z9ajCIaQ==
   dependencies:
-    "@babel/code-frame" "^7.0.0"
-    "@babel/generator" "^7.2.2"
-    "@babel/helper-function-name" "^7.1.0"
-    "@babel/helper-split-export-declaration" "^7.0.0"
-    "@babel/parser" "^7.2.3"
-    "@babel/types" "^7.2.2"
+    "@babel/code-frame" "^7.12.13"
+    "@babel/generator" "^7.13.9"
+    "@babel/helper-function-name" "^7.12.13"
+    "@babel/helper-split-export-declaration" "^7.12.13"
+    "@babel/parser" "^7.13.15"
+    "@babel/types" "^7.13.14"
     debug "^4.1.0"
     globals "^11.1.0"
-    lodash "^4.17.10"
 
-"@babel/types@^7.0.0", "@babel/types@^7.2.2", "@babel/types@^7.3.3":
-  version "7.3.3"
-  resolved "http://registry.npm.taobao.org/@babel/types/download/@babel/types-7.3.3.tgz#6c44d1cdac2a7625b624216657d5bc6c107ab436"
-  integrity sha1-bETRzawqdiW2JCFmV9W8bBB6tDY=
+"@babel/types@^7.12.13", "@babel/types@^7.13.0", "@babel/types@^7.13.14", "@babel/types@^7.7.0":
+  version "7.13.14"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.13.14.tgz#c35a4abb15c7cd45a2746d78ab328e362cbace0d"
+  integrity sha512-A2aa3QTkWoyqsZZFl56MLUsfmh7O0gN41IPvXAE/++8ojpbz12SszD7JEGYVdn4f9Kt4amIei07swF1h4AqmmQ==
   dependencies:
-    esutils "^2.0.2"
-    lodash "^4.17.11"
+    "@babel/helper-validator-identifier" "^7.12.11"
+    lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@momoko/eslint-config-js@^1.0.2":
-  version "1.0.2"
-  resolved "https://mirrors.tencent.com/npm/@momoko%2feslint-config-js/-/eslint-config-js-1.0.2.tgz#ed6e2b605f2daba54369f5f327f000ce259ccce8"
-  integrity sha512-/zmmbvUjTU5PY1sj+EvIyKm7d0E+kFUpYI4eMu3HNescZNMN2SxS2DZ4NeJ0/KURYAJpyE4j2JjWWphVQ8nMSg==
+"@momoko/eslint-config-js@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@momoko/eslint-config-js/-/eslint-config-js-1.1.0.tgz#e82af0fd7a582ae8df814aa23da0aef5430beefa"
+  integrity sha512-pL8NIjv8uKDGYbjWHWQLueR6BD9IgUF6b+HMG8o/uDS6AVyQ0D7TkOPEub1FDO/xSQZA6JTqYZdJnIziPybLMw==
   dependencies:
-    babel-eslint "^10.0.1"
-    eslint-config-standard "^12.0.0"
-    eslint-plugin-import "^2.17.2"
-    eslint-plugin-node "^9.0.1"
-    eslint-plugin-promise "^4.1.1"
-    eslint-plugin-standard "^4.0.0"
+    babel-eslint "^10.1.0"
+    eslint-config-standard "^16.0.2"
+    eslint-plugin-import "^2.22.1"
+    eslint-plugin-node "^11.1.0"
+    eslint-plugin-promise "^5.1.0"
+    eslint-plugin-standard "^5.0.0"
+
+"@types/json5@^0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
+  integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
 acorn-jsx@^5.2.0:
   version "5.3.1"
@@ -142,7 +165,7 @@ aria-query@^4.2.2:
     "@babel/runtime" "^7.10.2"
     "@babel/runtime-corejs3" "^7.10.2"
 
-array-includes@^3.0.3, array-includes@^3.1.1, array-includes@^3.1.2:
+array-includes@^3.1.1, array-includes@^3.1.2:
   version "3.1.3"
   resolved "http://mirrors.tencent.com/npm/array-includes/-/array-includes-3.1.3.tgz#c7f619b382ad2afaf5326cddfdc0afc61af7690a"
   integrity sha512-gcem1KlBU7c9rB+Rq8/3PPKsK2kjqeEBa3bD5kkQo4nYlOHQCJqIJFqBXDEfwaRuYTT4E+FxA9xez7Gf/e3Q7A==
@@ -152,6 +175,15 @@ array-includes@^3.0.3, array-includes@^3.1.1, array-includes@^3.1.2:
     es-abstract "^1.18.0-next.2"
     get-intrinsic "^1.1.1"
     is-string "^1.0.5"
+
+array.prototype.flat@^1.2.3:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/array.prototype.flat/-/array.prototype.flat-1.2.4.tgz#6ef638b43312bd401b4c6199fdec7e2dc9e9a123"
+  integrity sha512-4470Xi3GAPAjZqFcljX2xzckv1qeKPizoNkiS0+O4IoPR2ZNpcjE0pkhdihlDouK+x6QOast26B4Q/O9DJnwSg==
+  dependencies:
+    call-bind "^1.0.0"
+    define-properties "^1.1.3"
+    es-abstract "^1.18.0-next.1"
 
 ast-types-flow@^0.0.7:
   version "0.0.7"
@@ -168,17 +200,17 @@ axobject-query@^2.2.0:
   resolved "http://mirrors.tencent.com/npm/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
   integrity sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==
 
-babel-eslint@^10.0.1:
-  version "10.0.1"
-  resolved "http://registry.npm.taobao.org/babel-eslint/download/babel-eslint-10.0.1.tgz#919681dc099614cd7d31d45c8908695092a1faed"
-  integrity sha1-kZaB3AmWFM19MdRciQhpUJKh+u0=
+babel-eslint@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
+  integrity sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "@babel/parser" "^7.0.0"
-    "@babel/traverse" "^7.0.0"
-    "@babel/types" "^7.0.0"
-    eslint-scope "3.7.1"
+    "@babel/parser" "^7.7.0"
+    "@babel/traverse" "^7.7.0"
+    "@babel/types" "^7.7.0"
     eslint-visitor-keys "^1.0.0"
+    resolve "^1.12.0"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -290,7 +322,7 @@ error-ex@^1.2.0:
   dependencies:
     is-arrayish "^0.2.1"
 
-es-abstract@^1.18.0-next.2:
+es-abstract@^1.18.0-next.1, es-abstract@^1.18.0-next.2:
   version "1.18.0"
   resolved "http://mirrors.tencent.com/npm/es-abstract/-/es-abstract-1.18.0.tgz#ab80b359eecb7ede4c298000390bc5ac3ec7b5a4"
   integrity sha512-LJzK7MrQa8TS0ja2w3YNLzUgJCGPdPOV1yVvezjNnS89D+VR08+Szt2mz3YB2Dck/+w5tfIq/RoUAFqJJGM2yw==
@@ -326,51 +358,53 @@ escape-string-regexp@^1.0.5:
   resolved "http://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-standard@^12.0.0:
-  version "12.0.0"
-  resolved "http://registry.npm.taobao.org/eslint-config-standard/download/eslint-config-standard-12.0.0.tgz#638b4c65db0bd5a41319f96bba1f15ddad2107d9"
-  integrity sha1-Y4tMZdsL1aQTGflruh8V3a0hB9k=
+eslint-config-standard@^16.0.2:
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-16.0.2.tgz#71e91727ac7a203782d0a5ca4d1c462d14e234f6"
+  integrity sha512-fx3f1rJDsl9bY7qzyX8SAtP8GBSk6MfXFaTfaGgk12aAYW4gJSyRm7dM790L6cbXv63fvjY4XeSzXnb4WM+SKw==
 
-eslint-import-resolver-node@^0.3.2:
+eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
-  resolved "http://mirrors.tencent.com/npm/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.4.tgz#85ffa81942c25012d8231096ddf679c03042c717"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.4.tgz#85ffa81942c25012d8231096ddf679c03042c717"
   integrity sha512-ogtf+5AB/O+nM6DIeBUNr2fuT7ot9Qg/1harBfBtaP13ekEWFQEEMP94BCB7zaNW3gyY+8SHYF00rnqYwXKWOA==
   dependencies:
     debug "^2.6.9"
     resolve "^1.13.1"
 
-eslint-module-utils@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-module-utils/-/eslint-module-utils-2.4.0.tgz#8b93499e9b00eab80ccb6614e69f03678e84e09a"
-  integrity sha512-14tltLm38Eu3zS+mt0KvILC3q8jyIAH518MlG+HO0p+yK885Lb1UHTY/UgR91eOyGdmxAPb+OLoW4znqIT6Ndw==
+eslint-module-utils@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-module-utils/-/eslint-module-utils-2.6.0.tgz#579ebd094f56af7797d19c9866c9c9486629bfa6"
+  integrity sha512-6j9xxegbqe8/kZY8cYpcp0xhbK0EgJlg3g9mib3/miLaExuuwc3n5UEfSnU6hWMbT0FAYVvDbL9RrRgpUeQIvA==
   dependencies:
-    debug "^2.6.8"
+    debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-es@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-es/-/eslint-plugin-es-1.4.0.tgz#475f65bb20c993fc10e8c8fe77d1d60068072da6"
-  integrity sha512-XfFmgFdIUDgvaRAlaXUkxrRg5JSADoRC8IkKLc/cISeR3yHVMefFHQZpcyXXEUUPHfy5DwviBcrfqlyqEwlQVw==
+eslint-plugin-es@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-es/-/eslint-plugin-es-3.0.1.tgz#75a7cdfdccddc0589934aeeb384175f221c57893"
+  integrity sha512-GUmAsJaN4Fc7Gbtl8uOBlayo2DqhwWvEzykMHSCZHU3XdJ+NSzzZcVhXh3VxX5icqQ+oQdIEawXX8xkR3mIFmQ==
   dependencies:
-    eslint-utils "^1.3.0"
-    regexpp "^2.0.1"
+    eslint-utils "^2.0.0"
+    regexpp "^3.0.0"
 
-eslint-plugin-import@^2.17.2:
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.18.0.tgz#7a5ba8d32622fb35eb9c8db195c2090bd18a3678"
-  integrity sha512-PZpAEC4gj/6DEMMoU2Df01C5c50r7zdGIN52Yfi7CvvWaYssG7Jt5R9nFG5gmqodxNOz9vQS87xk6Izdtpdrig==
+eslint-plugin-import@^2.22.1:
+  version "2.22.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.22.1.tgz#0896c7e6a0cf44109a2d97b95903c2bb689d7702"
+  integrity sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==
   dependencies:
-    array-includes "^3.0.3"
+    array-includes "^3.1.1"
+    array.prototype.flat "^1.2.3"
     contains-path "^0.1.0"
     debug "^2.6.9"
     doctrine "1.5.0"
-    eslint-import-resolver-node "^0.3.2"
-    eslint-module-utils "^2.4.0"
+    eslint-import-resolver-node "^0.3.4"
+    eslint-module-utils "^2.6.0"
     has "^1.0.3"
-    lodash "^4.17.11"
     minimatch "^3.0.4"
+    object.values "^1.1.1"
     read-pkg-up "^2.0.0"
-    resolve "^1.11.0"
+    resolve "^1.17.0"
+    tsconfig-paths "^3.9.0"
 
 eslint-plugin-jsx-a11y@^6.4.1:
   version "6.4.1"
@@ -389,27 +423,27 @@ eslint-plugin-jsx-a11y@^6.4.1:
     jsx-ast-utils "^3.1.0"
     language-tags "^1.0.5"
 
-eslint-plugin-node@^9.0.1:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-9.1.0.tgz#f2fd88509a31ec69db6e9606d76dabc5adc1b91a"
-  integrity sha512-ZwQYGm6EoV2cfLpE1wxJWsfnKUIXfM/KM09/TlorkukgCAwmkgajEJnPCmyzoFPQQkmvo5DrW/nyKutNIw36Mw==
+eslint-plugin-node@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-11.1.0.tgz#c95544416ee4ada26740a30474eefc5402dc671d"
+  integrity sha512-oUwtPJ1W0SKD0Tr+wqu92c5xuCeQqB3hSCHasn/ZgjFdA9iDGNkNf2Zi9ztY7X+hNuMib23LNGRm6+uN+KLE3g==
   dependencies:
-    eslint-plugin-es "^1.4.0"
-    eslint-utils "^1.3.1"
+    eslint-plugin-es "^3.0.0"
+    eslint-utils "^2.0.0"
     ignore "^5.1.1"
     minimatch "^3.0.4"
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-promise@^4.1.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
-  integrity sha512-VoM09vT7bfA7D+upt+FjeBO5eHIJQBUWki1aPvB+vbNiHS3+oGIJGIeyBtKQTME6UPXXy3vV07OL1tHd3ANuDw==
+eslint-plugin-promise@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-5.1.0.tgz#fb2188fb734e4557993733b41aa1a688f46c6f24"
+  integrity sha512-NGmI6BH5L12pl7ScQHbg7tvtk4wPxxj8yPHH47NvSmMtFneC077PSeY3huFj06ZWZvtbfxSPt3RuOQD5XcR4ng==
 
-eslint-plugin-standard@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-standard/download/eslint-plugin-standard-4.0.0.tgz#f845b45109c99cd90e77796940a344546c8f6b5c"
-  integrity sha1-+EW0UQnJnNkOd3lpQKNEVGyPa1w=
+eslint-plugin-standard@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-5.0.0.tgz#c43f6925d669f177db46f095ea30be95476b1ee4"
+  integrity sha512-eSIXPc9wBM4BrniMzJRBm2uoVuXz2EPa+NXPk2+itrVt+r5SbKFERx/IgrK/HmfjddyKVz2f+j+7gBRvu19xLg==
 
 eslint-plugin-vue@^7.9.0:
   version "7.9.0"
@@ -421,14 +455,6 @@ eslint-plugin-vue@^7.9.0:
     semver "^7.3.2"
     vue-eslint-parser "^7.6.0"
 
-eslint-scope@3.7.1:
-  version "3.7.1"
-  resolved "http://registry.npm.taobao.org/eslint-scope/download/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
-  integrity sha1-PWPD7f2gLgbgGkUq2IyqzHzctug=
-  dependencies:
-    esrecurse "^4.1.0"
-    estraverse "^4.1.1"
-
 eslint-scope@^5.0.0:
   version "5.1.1"
   resolved "https://mirrors.tencent.com/npm/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"
@@ -437,16 +463,9 @@ eslint-scope@^5.0.0:
     esrecurse "^4.3.0"
     estraverse "^4.1.1"
 
-eslint-utils@^1.3.1, eslint-utils@^1.4.2:
-  version "1.4.3"
-  resolved "http://mirrors.tencent.com/npm/eslint-utils/-/eslint-utils-1.4.3.tgz#74fec7c54d0776b6f67e0251040b5806564e981f"
-  integrity sha512-fbBN5W2xdY45KulGXmLHZ3c3FHfVYmKg0IrAKGOkT/464PQsx2UeIzfz1RmEci+KLm1bBaAzZAh8+/E+XAeZ8Q==
-  dependencies:
-    eslint-visitor-keys "^1.1.0"
-
-eslint-utils@^2.1.0:
+eslint-utils@^2.0.0, eslint-utils@^2.1.0:
   version "2.1.0"
-  resolved "http://mirrors.tencent.com/npm/eslint-utils/-/eslint-utils-2.1.0.tgz#d2de5e03424e707dc10c74068ddedae708741b27"
+  resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-2.1.0.tgz#d2de5e03424e707dc10c74068ddedae708741b27"
   integrity sha512-w94dQYoauyvlDc43XnGB8lU3Zt713vNChgt4EWwhXAP2XkBvndfxF0AgIqKOOasjPIPzj9JqgwkwbCYD0/V3Zg==
   dependencies:
     eslint-visitor-keys "^1.1.0"
@@ -477,13 +496,6 @@ esquery@^1.4.0:
   dependencies:
     estraverse "^5.1.0"
 
-esrecurse@^4.1.0:
-  version "4.2.1"
-  resolved "http://registry.npm.taobao.org/esrecurse/download/esrecurse-4.2.1.tgz#007a3b9fdbc2b3bb87e4879ea19c92fdbd3942cf"
-  integrity sha1-AHo7n9vCs7uH5IeeoZyS/b05Qs8=
-  dependencies:
-    estraverse "^4.1.0"
-
 esrecurse@^4.3.0:
   version "4.3.0"
   resolved "http://mirrors.tencent.com/npm/esrecurse/-/esrecurse-4.3.0.tgz#7ad7964d679abb28bee72cec63758b1c5d2c9921"
@@ -491,7 +503,7 @@ esrecurse@^4.3.0:
   dependencies:
     estraverse "^5.2.0"
 
-estraverse@^4.1.0, estraverse@^4.1.1:
+estraverse@^4.1.1:
   version "4.2.0"
   resolved "http://registry.npm.taobao.org/estraverse/download/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
   integrity sha1-De4/7TH81GlhjOc0IJn8GvoL2xM=
@@ -665,6 +677,13 @@ jsesc@^2.5.1:
   resolved "http://registry.npm.taobao.org/jsesc/download/jsesc-2.5.2.tgz#80564d2e483dacf6e8ef209650a67df3f0c283a4"
   integrity sha1-gFZNLkg9rPbo7yCWUKZ98/DCg6Q=
 
+json5@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
+  integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
+  dependencies:
+    minimist "^1.2.0"
+
 jsx-ast-utils@^3.1.0:
   version "3.2.0"
   resolved "http://mirrors.tencent.com/npm/jsx-ast-utils/-/jsx-ast-utils-3.2.0.tgz#41108d2cec408c3453c1bbe8a4aae9e1e2bd8f82"
@@ -703,14 +722,9 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.10, lodash@^4.17.11:
-  version "4.17.14"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
-  integrity sha512-mmKYbW3GLuJeX+iGP+Y7Gp1AiGHGbXHCOh/jZmrawMmsE7MS4znI3RL2FsjbqOyMayHInjOeykW7PEajUk1/xw==
-
-lodash@^4.17.15:
+lodash@^4.17.15, lodash@^4.17.19:
   version "4.17.21"
-  resolved "http://mirrors.tencent.com/npm/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lru-cache@^6.0.0:
@@ -726,6 +740,11 @@ minimatch@^3.0.4:
   integrity sha1-UWbihkV/AzBgZL5Ul+jbsMPTIIM=
   dependencies:
     brace-expansion "^1.1.7"
+
+minimist@^1.2.0:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
 ms@2.0.0:
   version "2.0.0"
@@ -869,10 +888,10 @@ regenerator-runtime@^0.13.4:
   resolved "http://mirrors.tencent.com/npm/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
   integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
 
-regexpp@^2.0.1:
-  version "2.0.1"
-  resolved "http://registry.npm.taobao.org/regexpp/download/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
-  integrity sha1-jRnTHPYySCtYkEn4KB+T28uk0H8=
+regexpp@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.1.0.tgz#206d0ad0a5648cffbdb8ae46438f3dc51c9f78e2"
+  integrity sha512-ZOIzd8yVsQQA7j8GCSlPGXwg5PfmA1mrq0JP4nGhh54LaKN3xdai/vHUDu74pKwV8OxseMS65u2NImosQcSD0Q==
 
 resolve@^1.10.0:
   version "1.10.0"
@@ -881,14 +900,14 @@ resolve@^1.10.0:
   dependencies:
     path-parse "^1.0.6"
 
-resolve@^1.10.1, resolve@^1.11.0:
+resolve@^1.10.1:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.11.1.tgz#ea10d8110376982fef578df8fc30b9ac30a07a3e"
   integrity sha512-vIpgF6wfuJOZI7KKKSP+HmiKggadPQAdsp5HiC1mvqnfp0gF1vdwgBWZIdrVft9pgqoMFQN+R7BSWZiBxx+BBw==
   dependencies:
     path-parse "^1.0.6"
 
-resolve@^1.13.1:
+resolve@^1.12.0, resolve@^1.13.1, resolve@^1.17.0:
   version "1.20.0"
   resolved "https://mirrors.tencent.com/npm/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
@@ -977,10 +996,15 @@ to-fast-properties@^2.0.0:
   resolved "http://registry.npm.taobao.org/to-fast-properties/download/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
 
-trim-right@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.npm.taobao.org/trim-right/download/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
-  integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
+tsconfig-paths@^3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.9.0.tgz#098547a6c4448807e8fcb8eae081064ee9a3c90b"
+  integrity sha512-dRcuzokWhajtZWkQsDVKbWyY+jgcLC5sqJhg2PSgf4ZkH2aHPvaOY8YWGhmjb68b5qqTfasSsDO9k7RUiEmZAw==
+  dependencies:
+    "@types/json5" "^0.0.29"
+    json5 "^1.0.1"
+    minimist "^1.2.0"
+    strip-bom "^3.0.0"
 
 unbox-primitive@^1.0.0:
   version "1.0.1"
